@@ -1,0 +1,161 @@
+/* part one */
+.part-one {
+    display: flex;
+    background-color: darkblue;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.part-one .left {
+    flex: 1;
+    justify-content: flex-start;
+    font-weight: bold;
+    margin-left: 40px;
+}
+
+.part-one .right {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    margin-right: 40px;
+}
+
+.part-one .right .link {
+    margin: 8px 8px 8px 8px;
+}
+
+
+/* part two */
+.part-two {
+    display: flex;
+    margin-top: 0 20px 20px 20px;
+    background-color: lightcoral;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+.part-two .left {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.part-two .left .title {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.part-two .left .sign-up-button {
+    background-color: lightblue;
+}
+
+.part-two .right img {
+    width: 350px;
+    height: auto;
+    margin-right: 40px;
+}
+
+/* part three */
+.part-three .top {
+    display: flex;
+    justify-content: center;
+}
+
+.part-three .bottom {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.part-three .bottom .slide {
+    height: 130px;
+    width: 130px;
+    /* box-sizing: border-box; */
+}
+
+.part-three .bottom img {
+    height: 130px;
+    width: 130px;
+    border-radius: 12px;
+    border-color: aqua;
+    border-width: 2px;
+    border-style: solid;
+}
+
+
+.part-three .top .title {
+    font-weight: bold;
+    font-size: 30px
+}
+
+.part-three .bottom {
+    display: flex;
+    padding-bottom: 80px;
+}
+
+
+
+
+/* part four */
+.part-four {
+    background-color: lightgreen;
+}
+
+
+.part-four-a {
+    display: flex;
+
+    text-align: justify;
+
+    justify-content: center;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+
+.part-four-b {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 80px;
+}
+
+/* part five */
+.part-five {
+    background-color: lightseagreen;
+    margin: 50px;
+    display: flex;
+
+    padding-left: 20px;
+    align-items: center;
+}
+
+.part-five .left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.part-five .left .call-to-action {
+    font-weight: bold;
+    font-size: 20px;
+    height: 15px;
+}
+
+.part-five .left .subtext {
+    font-size: 12px;
+    height: 15px;
+}
+
+.part-five .right {
+    display: flex;
+    flex-direction: row;
+    justify-self: flex-end;
+}
+
+
+/* part six */
+.part-six {
+    background-color: lightsteelblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
